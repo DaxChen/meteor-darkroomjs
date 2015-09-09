@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
-  api.use('ryanswapp:fabricjs');
+  api.use('ryanswapp:fabricjs@0.1.1');
   api.addFiles('client/darkroomjs.min.js', ['client']);
   api.addFiles('client/darkroomjs.min.css', ['client']);
 });
@@ -20,5 +20,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('clipo:darkroomjs');
-  api.addFiles('darkroomjs-tests.js');
+  api.addFiles('test/client/darkroomjs-tests.js');
 });
