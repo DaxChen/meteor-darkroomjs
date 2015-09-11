@@ -1,6 +1,8 @@
 # meteor-darkroomjs
 Meteor wrapper for DarkroomJS: Extensible image editing tool
 
+[Atmosphere link](https://atmospherejs.com/clipo/darkroomjs)
+
 Original GitHub Repo: [DarkroomJS](https://github.com/MattKetmo/darkroomjs)
 
 ## Installation
