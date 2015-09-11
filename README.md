@@ -31,7 +31,7 @@ Template.TEMPLATENAME.rendered = function() {
 
     // Plugins options
     plugins: {
-			history: true, // enable undo/redo?
+      history: true, // enable undo/redo?
       save: true, // enable save?
       crop: { // options for crop
         quickCropKey: 67, //key "c"
